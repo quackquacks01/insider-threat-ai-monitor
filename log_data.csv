@@ -1,0 +1,21 @@
+timestamp,event,Anomaly,Anomaly_Score
+2025-04-29 13:30,User login success,0,-0.066472
+2025-04-29 9:00,login success user=ahyeon,0,-0.039839
+2025-04-29 9:05,file open user=ahyeon file=report.docx,0,-0.013184
+2025-04-29 9:10,email sent user=ahyeon to=teammate@example.com,1,0.045661
+2025-04-29 10:00,login success user=ahyeon,0,-0.024424
+2025-04-29 10:10,file edit user=ahyeon file=budget.xlss,0,-0.031332
+2025-04-29 3:00,login success user=ahyeon from=malicious-ip,1,0.057823
+2025-04-29 3:05,mass file copy user=ahyeon count=500,1,0.083201
+2025-04-29 3:10,sudo access user=ahyeon action=modify system files,1,0.091256
+2025-04-29 3:15,login failed user=unknown attempts=10,1,0.07854
+2025-04-29 3:20,external data transfer user=ahyeon size=1GB,1,0.072101
+2025-04-29 13:30,User login success,0,-0.043282
+2025-04-29 13:40,email sent user=ahyeon to=teammate@example.com,1,0.062201
+2025-04-29 13:30,User login success,0,-0.048753
+2025-04-29 3:20,external data transfer user=ahyeon size=1GB,1,0.072101
+2025-04-29 13:40,email sent user=ahyeon to=teammate@example.com,1,0.065234
+2025-04-29 3:20,external data transfer user=ahyeon size=1GB,1,0.074888
+2025-04-30 15:20,login failed user=ahyeon from=malicious-ip,1,0.088201
+2025-04-29 10:05,system reboot detected,0,-0.038122
+2025-04-29 10:20,user added to sudo group user=ahyeon,1,0.081005
